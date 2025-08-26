@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Jameel Shehadeh",
+		name: "Jameel Shehadeh",
+		email: "jamshehadeh@gmail.com",
 		logo: "../logo.png",
 	},
 
@@ -16,9 +16,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "iOS Engineer, Builder, and Creator.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"iOS engineer with deep experience in UIKit and SwiftUI. I bring a builder’s mindset, comfortable turning vague ideas into polished, production-ready apps. I value clarity in code, design, and process, and I avoid unnecessary complexity. Whether it’s shipping a new feature or architecting from scratch, I focus on what matters and build with intent. While my focus is on iOS Development, I also have experience with backend development using Node.js, which helps me see the bigger picture and build more cohesive products.",
 	},
 
 	about: {
