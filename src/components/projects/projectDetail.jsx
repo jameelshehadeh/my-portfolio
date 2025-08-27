@@ -1,12 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import INFO from "../../data/user";
 import "./styles/projectDetail.css";
 
 const ProjectDetail = () => {
   const { projectId } = useParams();
+  const navigate = useNavigate();
   const project = INFO.projects.find((p) => p.id === projectId);
 
   if (!project) {
@@ -15,17 +16,22 @@ const ProjectDetail = () => {
 
   return (
     <div className="project-detail-container">
-      {project.link && (project.showLink === undefined || project.showLink) && (
-        <a
-          href={project.link}
-          className="project-detail-link top-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faLink} style={{ marginRight: 10 }} />
-          Visit Project
-        </a>
-      )}
+      <div className="project-detail-topbar">
+        <button className="project-detail-back-btn" onClick={() => navigate(-1)}>
+          <img src="/back-button.png" alt="Back" className="project-detail-back-img" />
+        </button>
+        {project.link && (project.showLink === undefined || project.showLink) && (
+          <a
+            href={project.link}
+            className="project-detail-link top-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faLink} style={{ marginRight: 10 }} />
+            Visit Project
+          </a>
+        )}
+      </div>
       <div className="project-detail-header">
         <img src={project.logo} alt={project.title} className="project-detail-logo" />
         <h1 className="project-detail-title">{project.title}</h1>

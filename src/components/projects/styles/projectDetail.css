@@ -1,3 +1,32 @@
+.project-detail-topbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.project-detail-back-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.project-detail-back-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+}
+
+.project-detail-link.top-link {
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
 .project-detail-container {
     max-width: 700px;
     margin: 40px auto;
