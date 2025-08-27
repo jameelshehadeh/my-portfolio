@@ -2,10 +2,22 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	margin-left: -35px;
 	margin-right: -35px;
+}
+
+.projects-section-header {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-bottom: 0px;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: left;
+	color: #222;
+	letter-spacing: 1px;
+	font-family: var(--secondary-font);
 }
 
 .all-projects-project {
