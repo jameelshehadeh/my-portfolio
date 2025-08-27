@@ -43,7 +43,7 @@ const INFO = {
 		{
 			title: "Arabic By Multilingualism",
 			description:
-				"Arabic is a UK based startup that specializes in teaching Arabic language for non-speakers “Foreigners”",
+				"Arabic is a UK based startup that specializes in teaching Arabic language for non-speakers, using interactive audio visual lessons, games, and quizzes, curated by expert linguists and teachers.",
 			logo: "/projectLogos/arabicLogo.png",
 			linkText: "View Project",
 			link: "https://github.com",
@@ -52,7 +52,7 @@ const INFO = {
 		{
 			title: "Gaawk",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Gaawk connects professionals in the events industry with agencies, letting you showcase your work, offer services or products, find jobs, and grow your network through boards and communities.",
 			logo: "/projectLogos/gaawkIcon.png",
 			linkText: "View Project",
 			link: "https://github.com",
