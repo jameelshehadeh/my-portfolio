@@ -21,13 +21,13 @@ const INFO = {
 	about: {
 		title: "I’m Jameel Shehadeh, I turn ideas into products that people love using technology.",
 		description:
-			"I’ve built a range of projects over the years and take pride in each one. Explore my work and share your ideas—every suggestion is an opportunity to make something better.",
+			"I’ve built a variety of projects over the years and take pride in each one. As an iOS engineer with deep experience in UIKit and SwiftUI, I approach every project with a builder’s mindset—turning vague ideas into polished, production-ready apps. I value clarity in code, design, and process, avoiding unnecessary complexity while focusing on what truly matters. With experience in Node.js backend development as well, I see the bigger picture and create more cohesive, well-rounded products. Explore my work and share your ideas—every suggestion is an opportunity to make something better.",
 	},
 
 	articles: {
 		title: "Thoughts, stories and ideas.",
 		description:
-			"Chronological collection of my long-form thoughts on programming",
+			"Chronological collection of my thoughts on swift and programming.",
 	},
 
 	projects: [
