@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -21,13 +21,20 @@ const Article = (props) => {
 						{description}
 					</div>
 					<div className="homepage-article-link">
-						<Link to={link}>
+						{/* <Link to={link}>
 							Read article{" "}
 							<FontAwesomeIcon
 								style={{ fontSize: "10px" }}
 								icon={faChevronRight}
 							/>
-						</Link>
+						</Link> */}
+						<a href={link} target="_blank" rel="noreferrer">
+							Read article{" "}
+							<FontAwesomeIcon
+								style={{ fontSize: "10px" }}
+								icon={faChevronRight}
+							/>
+						</a>	
 					</div>
 				</div>
 			</div>

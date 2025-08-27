@@ -2,16 +2,17 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "23 Jun 2023",
+		title: "Your Guide To a “Thread Safe” Singleton in Swift Part I.",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"Singletons are most commonly referred to as an Anti-Pattern with a bad reputation of being hard to isolate and control specifically for testing purposes in addition to tight coupling with other components throughout the codebase",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Thread Safety in Swift",
+			"Jameel",
+			"Jameel Shehadeh",
+			"iOS Development"
 		],
+		link: "https://medium.com/@jamshehadeh/your-guide-to-a-thread-safe-singleton-in-swift-part-i-17633c5a65fe",
 		style: `
 				.article-content {
 					display: flex;
@@ -41,17 +42,18 @@ function article_1() {
 
 function article_2() {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		date: "26 Oct 2022",
+		title: ".throttle On Observable Objects in RxSwift.",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+			"One of the most important features of the reactive programming paradigm is to help us writing asynchronous code efficiently with less complexity in our code base.",
 		style: ``,
 		keywords: [
-			"Artificial Intelligence in Healthcare",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"RxSwift",
+			"Jameel",
+			"Jameel Shehadeh",
+			"iOS Development",
 		],
+		link: "https://medium.com/@jamshehadeh/throttle-on-observable-objects-in-rxswift-c0c8cd49ed58",
 		body: (
 			<React.Fragment>
 				<h1>Content of article 2</h1>
