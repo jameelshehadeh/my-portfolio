@@ -9,6 +9,7 @@ const INFO = {
 	socials: {
 		github: "https://github.com/jameelshehadeh",
 		linkedin: "https://linkedin.com/in/jameel-shehadeh",
+		medium: "https://medium.com/@jamshehadeh",
 	},
 
 	homepage: {
