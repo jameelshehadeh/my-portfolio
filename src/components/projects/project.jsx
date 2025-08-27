@@ -3,7 +3,7 @@ import React from "react";
 import "./styles/project.css";
 
 const Project = (props) => {
-       const { logo, title, description, linkText } = props;
+       const { logo, title, description } = props;
 
        return (
 	       <div className="project">
