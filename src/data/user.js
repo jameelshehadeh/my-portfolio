@@ -43,7 +43,7 @@ const INFO = {
 		{
 			title: "Arabic By Multilingualism",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Arabic is a UK based startup that specializes in teaching Arabic language for non-speakers “Foreigners”",
 			logo: "/projectLogos/arabicLogo.png",
 			linkText: "View Project",
 			link: "https://github.com",
