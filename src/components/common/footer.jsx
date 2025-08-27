@@ -29,8 +29,8 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2025 Jameel.dev. All Rights Reserved.
-					</div>
+  					© {new Date().getFullYear()} jameeldev.com All Rights Reserved.
+				</div>
 				</div>
 			</div>
 		</React.Fragment>

@@ -1,0 +1,131 @@
+.project-detail-container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-detail-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.project-detail-logo {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-bottom: 16px;
+}
+
+.project-detail-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.project-detail-description {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.project-detail-body {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 32px;
+    text-align: left;
+    width: 100%;
+}
+
+
+.project-detail-link {
+    display: inline-block;
+    background: #fafafa;
+    color: #222;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    border: 1px solid #e5e7eb;
+}
+
+.project-detail-link.top-link {
+    align-self: flex-start;
+    margin-bottom: 32px;
+}
+
+.project-detail-features {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.project-detail-features h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.project-detail-features ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.project-detail-features li {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+.project-detail-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.project-detail-image {
+    max-width: 320px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.project-detail-videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.project-detail-video {
+    max-width: 420px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.project-detail-link:hover {
+    background: #e5e7eb;
+    color: #111;
+}
+
+.project-detail-not-found {
+    text-align: center;
+    color: #b00;
+    font-size: 1.3rem;
+    margin-top: 60px;
+}

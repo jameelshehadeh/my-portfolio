@@ -32,6 +32,7 @@ const INFO = {
 
 	projects: [
 		{
+			id: "dars",
 			title: "Dars درس",
 			description:
 				"Dars درس is a platform that allows students to book and connect with private tutors that fits their needs.",
@@ -41,30 +42,35 @@ const INFO = {
 		},
 
 		{
+			id: "arabic-by-multilingualism",
 			title: "Arabic By Multilingualism",
 			description:
 				"Arabic is a UK based startup that specializes in teaching Arabic language for non-speakers, using interactive audio visual lessons, games, and quizzes, curated by expert linguists and teachers.",
 			logo: "/projectLogos/arabicLogo.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://apps.apple.com/ae/app/arabic-by-multilingualism/id1596668487",
 		},
 
 		{
+			id: "gaawk",
 			title: "Gaawk",
+			showLink: false,
 			description:
 				"Gaawk connects professionals in the events industry with agencies, letting you showcase your work, offer services or products, find jobs, and grow your network through boards and communities.",
 			logo: "/projectLogos/gaawkIcon.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			// link: "https://github.com",
 		},
 
 		{
+			id: "alhara",
 			title: "Alhara الحارة",
+			showLink: false,
 			description:
 				"A social hub for your neighborhood: Alhara lets residents stay informed, interact, and support local services all in one place.",
 			logo: "/projectLogos/alharaLogo.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			// link: "https://github.com",
 		}
 	],
 };
