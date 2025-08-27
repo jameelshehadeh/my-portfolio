@@ -34,7 +34,7 @@ const INFO = {
 		{
 			title: "Dars درس",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Dars درس is a platform that allows students to book and connect with private tutors that fits their needs.",
 			logo: "/projectLogos/darsLogo.png",
 			linkText: "View Project",
 			link: "https://apps.apple.com/ae/app/dars-%D8%AF%D8%B1%D8%B3/id1628004813",
@@ -61,8 +61,8 @@ const INFO = {
 		{
 			title: "Alhara الحارة",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A social hub for your neighborhood: Alhara lets residents stay informed, interact, and support local services all in one place.",
+			logo: "/projectLogos/alharaLogo.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		}
