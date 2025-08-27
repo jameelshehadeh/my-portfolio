@@ -35,9 +35,9 @@ const INFO = {
 			title: "Dars درس",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "/projectLogos/darsLogo.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://apps.apple.com/ae/app/dars-%D8%AF%D8%B1%D8%B3/id1628004813",
 		},
 
 		{
