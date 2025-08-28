@@ -101,9 +101,10 @@ const Homepage = () => {
 
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
+									<h2 className="title homepage-title"> Key Skills </h2>
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="homepage.png"
 											alt="about"
 											className="homepage-image"
 										/>

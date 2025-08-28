@@ -25,6 +25,7 @@
 
 .homepage-title {
 	width: 85% !important;
+	margin-top: 0;
 }
 
 .homepage-subtitle {
@@ -33,7 +34,6 @@
 
 .homepage-first-area-right-side {
 	display: flex;
-	align-items: center;
 }
 
 .homepage-image-container {
@@ -100,7 +100,8 @@
 
 	.homepage-first-area-left-side {
 		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
+		flex-direction: column;
+		/* Changed: set direction to column */
 		align-items: flex-start;
 		width: 100%;
 		order: 2;
