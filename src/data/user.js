@@ -52,8 +52,8 @@ const INFO = {
 				},
 				{
 					image: "/ProjectMedia/dars/darsimage3.png",
-					title: "Seamless Booking",
-					description: "Easily book and manage your online tutoring sessions"
+					title: "Interactive Lessons",
+					description: "Enjoy interactive lessons with audio, video, and real-time chatting."
 				}
 			]
 		},
