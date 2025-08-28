@@ -39,6 +39,23 @@ const INFO = {
 			logo: "/projectLogos/darsLogo.png",
 			linkText: "View Project",
 			link: "https://apps.apple.com/ae/app/dars-%D8%AF%D8%B1%D8%B3/id1628004813",
+			features: [
+				{
+					image: "/ProjectMedia/dars/darsimage1.png",
+					title: "Find Tutors Easily",
+					description: "Browse and connect with a wide range of private tutors tailored to your needs."
+				},
+				{
+					image: "/ProjectMedia/dars/darsimage2.png",
+					title: "Book Instantly",
+					description: "Schedule sessions with just a few clicks and manage your bookings seamlessly."
+				},
+				{
+					image: "/ProjectMedia/dars/darsimage3.png",
+					title: "Seamless Booking",
+					description: "Easily book and manage your online tutoring sessions"
+				}
+			]
 		},
 
 		{
@@ -56,7 +73,7 @@ const INFO = {
 			title: "Gaawk",
 			showLink: false,
 			description:
-				"Gaawk connects professionals in the events industry with agencies, letting you showcase your work, offer services or products, find jobs, and grow your network through boards and communities.",
+				"Gaawk is a multi-purpose creative marketplace empowering freelancers, agencies, brands, and artists to showcase, sell, and collaborate seamlessly.",
 			logo: "/projectLogos/gaawkIcon.png",
 			linkText: "View Project",
 			// link: "https://github.com",

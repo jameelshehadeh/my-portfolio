@@ -4,6 +4,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { useParams, useNavigate } from "react-router-dom";
 import INFO from "../../data/user";
 import "./styles/projectDetail.css";
+import FeatureCard from "./featureCard";
 
 const ProjectDetail = () => {
   const { projectId } = useParams();
@@ -40,11 +41,16 @@ const ProjectDetail = () => {
       {project.features && project.features.length > 0 && (
         <div className="project-detail-features">
           <h2>Features</h2>
-          <ul>
+          <div className="project-detail-features-list">
             {project.features.map((feature, idx) => (
-              <li key={idx}>{feature}</li>
+              <FeatureCard
+                key={idx}
+                image={feature.image}
+                title={feature.title}
+                description={feature.description}
+              />
             ))}
-          </ul>
+          </div>
         </div>
       )}
       {project.images && project.images.length > 0 && (
