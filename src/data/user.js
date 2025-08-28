@@ -32,6 +32,47 @@ const INFO = {
 
 	projects: [
 		{
+			id: "arabic-by-multilingualism",
+			title: "Arabic By Multilingualism",
+			description:
+				"Arabic is a UK based startup that specializes in teaching Arabic language for non-speakers, using interactive audio visual lessons, games, and quizzes, curated by expert linguists and teachers.",
+			logo: "/projectLogos/arabicLogo.png",
+			linkText: "View Project",
+			link: "https://apps.apple.com/ae/app/arabic-by-multilingualism/id1596668487",
+			features: [
+				{
+					image: "/ProjectMedia/arabic/arabicimage1.png",
+					title: "Interactive Audio-Visual Lessons",
+					description: "Engage with lessons that combine audio and visual elements to enhance your learning experience."
+				},
+				{
+					image: "/ProjectMedia/arabic/arabicimage2.png",
+					title: "Arabic Lessons for All Levels",
+					description: "Enjoy expertly crafted Arabic lessons suitable for learners at all proficiency levels."
+				},
+				{
+					image: "/ProjectMedia/arabic/arabicimage3.png",
+					title: "Revisions List",
+					description: "Mark vocabulary words for revision and track your learning progress effectively."
+				},
+				{
+					image: "/ProjectMedia/arabic/arabicimage4.png",
+					title: "Reminders List",
+					description: "Time based reminders to help you stay consistent with your learning schedule."
+				},
+				{
+					image: "/ProjectMedia/arabic/arabicImage5.png",
+					title: "Interactive Quizzes",
+					description: "Test your knowledge with engaging quizzes that reinforce your learning."
+				},
+				{
+					image: "/ProjectMedia/arabic/arabicImage6.png",
+					title: "Save Vocabulary",
+					description: "Save vocabulary words to review and strengthen your language skills over time."
+				}
+			]
+		},
+		{
 			id: "dars",
 			title: "Dars درس",
 			description:
@@ -57,17 +98,6 @@ const INFO = {
 				}
 			]
 		},
-
-		{
-			id: "arabic-by-multilingualism",
-			title: "Arabic By Multilingualism",
-			description:
-				"Arabic is a UK based startup that specializes in teaching Arabic language for non-speakers, using interactive audio visual lessons, games, and quizzes, curated by expert linguists and teachers.",
-			logo: "/projectLogos/arabicLogo.png",
-			linkText: "View Project",
-			link: "https://apps.apple.com/ae/app/arabic-by-multilingualism/id1596668487",
-		},
-
 		{
 			id: "gaawk",
 			title: "Gaawk",
