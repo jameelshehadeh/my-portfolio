@@ -46,6 +46,11 @@ const INFO = {
 					description: "Engage with lessons that combine audio and visual elements to enhance your learning experience."
 				},
 				{
+					video: "/ProjectMedia/arabic/liveLesson.MP4",
+					title: "Lesson Example",
+					description: "This is an example of an interactive audio-visual lesson, with explanations and a quiz."
+				},
+				{
 					image: "/ProjectMedia/arabic/arabicimage2.png",
 					title: "Arabic Lessons for All Levels",
 					description: "Enjoy expertly crafted Arabic lessons suitable for learners at all proficiency levels."
@@ -103,14 +108,24 @@ const INFO = {
 			title: "Gaawk",
 			showLink: false,
 			description:
-				"Gaawk is a multi-purpose creative marketplace empowering freelancers, agencies, brands, and artists to showcase, sell, and collaborate seamlessly.",
+				"Gaawk is a multi-purpose creative marketplace in the UAE empowering freelancers, agencies, brands, and artists to showcase, sell, and collaborate seamlessly.",
 			logo: "/projectLogos/gaawkIcon.png",
 			linkText: "View Project",
 			features: [
 				{
 					video: "/ProjectMedia/gaawk/feedExperience.mov",
-					title: "Feed",
+					title: "Feed Experience",
 					description: "Discover and engage with a dynamic feed showcasing diverse creative works from the Gaawk community."
+				},
+				{
+					video: "/ProjectMedia/gaawk/profileExperience.mov",
+					title: "Profile",
+					description: "Showcase your portfolio and creative works with a personalized profile that highlights your talents and achievements."
+				},
+				{
+					video: "/ProjectMedia/gaawk/chatExperience.mov",
+					title: "Realtime Chat",
+					description: "Communicate instantly with other users through our seamless real-time chat feature, fostering collaboration and connection."
 				}
 			]
 		},
