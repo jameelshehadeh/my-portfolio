@@ -46,6 +46,7 @@ const ProjectDetail = () => {
               <FeatureCard
                 key={idx}
                 image={feature.image}
+                video={feature.video}
                 title={feature.title}
                 description={feature.description}
               />

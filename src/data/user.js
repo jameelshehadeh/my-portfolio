@@ -106,7 +106,13 @@ const INFO = {
 				"Gaawk is a multi-purpose creative marketplace empowering freelancers, agencies, brands, and artists to showcase, sell, and collaborate seamlessly.",
 			logo: "/projectLogos/gaawkIcon.png",
 			linkText: "View Project",
-			// link: "https://github.com",
+			features: [
+				{
+					video: "/ProjectMedia/gaawk/feedExperience.mov",
+					title: "Feed",
+					description: "Discover and engage with a dynamic feed showcasing diverse creative works from the Gaawk community."
+				}
+			]
 		},
 
 		{
