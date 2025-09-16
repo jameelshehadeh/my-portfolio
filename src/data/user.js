@@ -130,16 +130,16 @@ const INFO = {
 			]
 		},
 
-		{
-			id: "alhara",
-			title: "Alhara الحارة",
-			showLink: false,
-			description:
-				"A social hub for your neighborhood: Alhara lets residents stay informed, interact, and support local services all in one place.",
-			logo: "/projectLogos/alharaLogo.png",
-			linkText: "View Project",
-			// link: "https://github.com",
-		}
+		// {
+		// 	id: "alhara",
+		// 	title: "Alhara الحارة",
+		// 	showLink: false,
+		// 	description:
+		// 		"A social hub for your neighborhood: Alhara lets residents stay informed, interact, and support local services all in one place.",
+		// 	logo: "/projectLogos/alharaLogo.png",
+		// 	linkText: "View Project",
+		// 	// link: "https://github.com",
+		// }
 	],
 };
 
