@@ -129,6 +129,16 @@ const INFO = {
 				}
 			]
 		},
+		{
+			id: "Cube Timer - Rubiks Cube Timer",
+			title: "Cube Timer - Rubiks Cube Timer",
+			showLink: true,
+			description:
+				"Cube Timer is a minimal rubiks cube timer for speed cubers",
+			logo: "/projectLogos/cubeTimerLogo.png",
+			linkText: "View Project",
+			link: "https://apps.apple.com/ae/app/cube-timer-rubiks-cube-timer/id6476420674",
+		}
 
 		// {
 		// 	id: "alhara",
