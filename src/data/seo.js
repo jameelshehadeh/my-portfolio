@@ -2,14 +2,14 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+			"I am an ios developer with expertise in swift and Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
 		keywords: ["Jameel", "Jameel Shehadeh"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+			"I am an ios developer with expertise in swift and Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
 		keywords: ["Jameel", "Jameel Shehadeh"],
 	},
 
