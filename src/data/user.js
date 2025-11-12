@@ -140,16 +140,16 @@ const INFO = {
 			link: "https://apps.apple.com/ae/app/cube-timer-rubiks-cube-timer/id6476420674",
 		}
 
-		// {
-		// 	id: "alhara",
-		// 	title: "Alhara الحارة",
-		// 	showLink: false,
-		// 	description:
-		// 		"A social hub for your neighborhood: Alhara lets residents stay informed, interact, and support local services all in one place.",
-		// 	logo: "/projectLogos/alharaLogo.png",
-		// 	linkText: "View Project",
-		// 	// link: "https://github.com",
-		// }
+		{
+			id: "alhara",
+			title: "Alhara الحارة",
+			showLink: false,
+			description:
+				"A social hub for your neighborhood: Alhara lets residents stay informed, interact, and support local services all in one place.",
+			logo: "/projectLogos/alharaLogo.png",
+			linkText: "View Project",
+			link: "https://apps.apple.com/ae/app/alhara-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9/id6478935245",
+		}
 	],
 };
 
