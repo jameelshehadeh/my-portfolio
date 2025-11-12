@@ -138,8 +138,7 @@ const INFO = {
 			logo: "/projectLogos/cubeTimerLogo.png",
 			linkText: "View Project",
 			link: "https://apps.apple.com/ae/app/cube-timer-rubiks-cube-timer/id6476420674",
-		}
-
+		},
 		{
 			id: "alhara",
 			title: "Alhara الحارة",
