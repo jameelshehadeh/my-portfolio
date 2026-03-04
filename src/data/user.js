@@ -145,7 +145,7 @@ const INFO = {
 			showLink: false,
 			description:
 				"A social hub for your neighborhood: Hoodly lets residents stay informed, interact, and support local services all in one place.",
-			logo: "/projectLogos/alharaLogo.png",
+			logo: "/projectLogos/alharaLogo.jpg",
 			linkText: "View Project",
 			link: "https://apps.apple.com/ae/app/alhara-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9/id6478935245",
 		}
